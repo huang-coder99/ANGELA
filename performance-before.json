@@ -1,0 +1,246 @@
+{
+  "home": {
+    "audit": {
+      "longTasks": [
+        87
+      ],
+      "lcp": 1716,
+      "cls": 0
+    },
+    "resources": [
+      {
+        "name": "index-CPYUVkk5.js",
+        "bytes": 129583,
+        "duration": 17
+      },
+      {
+        "name": "index-L9ZEpRk9.css",
+        "bytes": 7545,
+        "duration": 7
+      },
+      {
+        "name": "css2?family=Noto+Serif+SC:wght@300;400;500&display=swap",
+        "bytes": 92985,
+        "duration": 1541
+      },
+      {
+        "name": "hero.svg",
+        "bytes": 676,
+        "duration": 10
+      },
+      {
+        "name": "angela-portrait.jpg",
+        "bytes": 194231,
+        "duration": 11
+      },
+      {
+        "name": "central-cover.jpg",
+        "bytes": 1016827,
+        "duration": 13
+      },
+      {
+        "name": "library-cover.png",
+        "bytes": 130339,
+        "duration": 9
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 146
+      },
+      {
+        "name": "favicon.svg",
+        "bytes": 507,
+        "duration": 3
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 15
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 5
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 30
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 1
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 30
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 1
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 33
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 11
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 2
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 8
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 0
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 38
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 32
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 1
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 6
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 31
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 6
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 33
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 5
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 0
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 23
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 300,
+        "duration": 4
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 0,
+        "duration": 0
+      },
+      {
+        "name": "hero.mp4",
+        "bytes": 23868,
+        "duration": 3
+      }
+    ],
+    "video": {
+      "ready": 4,
+      "width": 1920,
+      "duration": 202.068833
+    },
+    "nav": {
+      "name": "http://127.0.0.1:5174/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 1587.5,
+      "navigationId": 5095,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 3.599999997764826,
+      "domainLookupStart": 3.599999997764826,
+      "domainLookupEnd": 3.599999997764826,
+      "connectStart": 3.599999997764826,
+      "secureConnectionStart": 0,
+      "connectEnd": 3.599999997764826,
+      "requestStart": 4.800000000745058,
+      "responseStart": 11.399999998509884,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 11.399999998509884,
+      "responseEnd": 12,
+      "transferSize": 892,
+      "encodedBodySize": 592,
+      "decodedBodySize": 592,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 20.5,
+      "domContentLoadedEventStart": 1587,
+      "domContentLoadedEventEnd": 1587.300000000745,
+      "domComplete": 1587.3999999985099,
+      "loadEventStart": 1587.5,
+      "loadEventEnd": 1587.5,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    }
+  },
+  "homeIdle": {
+    "taskMs": 1072,
+    "scriptMs": 560,
+    "layoutMs": 0
+  },
+  "backgroundIdle": {
+    "taskMs": 1035,
+    "scriptMs": 545,
+    "layoutMs": 0
+  }
+}

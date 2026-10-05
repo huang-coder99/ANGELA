@@ -1,0 +1,13 @@
+.portrait-glow{align-self:start;min-width:0}
+.post-hero{overflow-x:clip}
+.portrait-glow .portrait{border:0;border-radius:17px}
+.project-glow{width:100%;text-align:left}
+.project-glow .project-image{border-radius:17px}
+.border-glow-inner{overflow:visible;border-radius:inherit;min-width:0}
+.capability-glow{min-width:0;transition:transform .3s ease}
+.capability-glow .border-glow-inner{height:100%}
+.capability-glow .capability{height:100%;border:0;border-radius:17px;background:linear-gradient(145deg,#151f2b,#0e141d)}
+.capability-glow .capability:hover{transform:none;box-shadow:none}
+.border-glow-card::before,.border-glow-card::after{pointer-events:none}
+@media(hover:hover){.capability-glow:hover{transform:translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.capability-glow:hover{transform:none}}

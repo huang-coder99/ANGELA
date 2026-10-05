@@ -1,0 +1,12 @@
+.reveal,.reveal.visible{opacity:1;transform:none;transition:none}
+.opening{position:fixed;inset:0;z-index:100;background:#08131f;display:flex;flex-direction:column;justify-content:center;align-items:center;pointer-events:none;clip-path:inset(0 0 0 0)}
+.opening-word{display:flex;overflow:hidden;font:900 clamp(58px,15vw,250px)/1.15 Arial,sans-serif;letter-spacing:-.065em;color:#64b5ff;padding:0 .06em}
+.opening-letter{display:inline-block;transform-origin:50% 100%}
+.opening-caption{font-size:12px;letter-spacing:4px;color:#9bbedc;margin-top:20px}
+.motion-title{font-family:Arial,sans-serif;font-size:clamp(58px,9vw,150px);font-weight:800;line-height:1.15;letter-spacing:-.07em;color:#64b5ff;overflow:hidden;margin:40px 0 26px;padding:4px 0}
+.motion-title span{display:inline-block;transform-origin:left bottom;white-space:pre}
+.contact .motion-title{margin-top:40px}
+.project-image img{transition:none}
+.project:hover .project-image img{transform:none}
+@media(max-width:700px){.motion-title{font-size:clamp(28px,8.6vw,60px);letter-spacing:-.055em;margin:26px 0 20px}.opening-caption{font-size:9px;letter-spacing:2px}.contact-body{padding-top:35px}}
+@media(prefers-reduced-motion:reduce){.opening{display:none}.motion-title span{transform:none!important}.project-image img,.portrait-image{transform:none!important;clip-path:none!important}}

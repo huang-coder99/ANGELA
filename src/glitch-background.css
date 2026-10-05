@@ -1,0 +1,6 @@
+.post-hero{position:relative;isolation:isolate;background:#0b0d10}
+.post-hero-background{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.32}
+.post-hero-background-viewport{position:sticky;top:0;height:100svh;width:100%}
+.post-hero .contact{background:linear-gradient(0deg,#09111ad9,transparent)}
+.post-hero .about-copy>p,.post-hero .section-heading p,.post-hero .timeline p{color:#aab7c5}
+@media(prefers-reduced-motion:reduce){.post-hero-background{opacity:.2}}

@@ -1,0 +1,47 @@
+
+  VITE v7.3.6  ready in 181 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.9:5173/
+  ➜  press h + enter to show help
+20:11:56 [vite] (client) page reload src/main.jsx
+20:21:11 [vite] (client) page reload src/main.jsx
+20:21:11 [vite] (client) hmr update /src/hero-minimal.css
+20:31:46 [vite] (client) hmr update /src/hero-minimal.css
+20:37:51 [vite] (client) hmr update /src/hero-minimal.css
+20:38:37 [vite] (client) hmr update /src/hero-minimal.css
+20:49:24 [vite] (client) page reload src/main.jsx
+20:49:24 [vite] (client) hmr update /src/hero-minimal.css
+20:58:38 [vite] (client) page reload src/main.jsx
+21:02:53 [vite] (client) page reload src/main.jsx
+21:02:55 [vite] (client) hmr update /src/blue-theme.css
+21:07:17 [vite] (client) page reload src/main.jsx
+21:07:17 [vite] (client) hmr update /src/blue-theme.css
+21:16:11 [vite] (client) hmr update /src/blue-theme.css
+21:32:46 [vite] (client) page reload src/main.jsx
+21:51:19 [vite] (client) page reload src/main.jsx
+21:51:36 [vite] (client) hmr update /src/blue-theme.css
+21:52:59 [vite] (client) page reload src/TechText.jsx
+22:01:21 [vite] (client) page reload src/TechText.jsx
+22:01:21 [vite] (client) hmr update /src/blue-theme.css
+22:01:22 [vite] (client) page reload src/main.jsx
+22:17:16 [vite] (client) page reload src/main.jsx
+22:24:11 [vite] (client) page reload src/main.jsx
+22:28:08 [vite] (client) page reload src/main.jsx
+22:28:10 [vite] (client) page reload src/LetterGlitch.jsx
+22:28:10 [vite] (client) page reload src/glitch-background.css
+22:43:36 [vite] (client) page reload src/main.jsx
+22:43:39 [vite] (client) page reload src/card-glow.css
+22:46:52 [vite] (client) hmr update /src/card-glow.css
+22:54:41 [vite] (client) page reload src/main.jsx
+22:54:41 [vite] (client) ✨ new dependencies optimized: gsap, gsap/ScrollTrigger
+22:54:41 [vite] (client) ✨ optimized dependencies changed. reloading
+22:58:11 [vite] (client) page reload src/LetterGlitch.jsx
+22:58:11 [vite] (client) hmr update /src/motion.css
+23:20:28 [vite] (client) page reload src/main.jsx
+23:20:28 [vite] (client) hmr update /src/style.css
+23:21:56 [vite] (client) page reload src/AudioLine.jsx
+23:21:56 [vite] (client) page reload src/main.jsx
+23:21:56 [vite] (client) page reload src/usePortfolioMotion.js
+23:21:59 [vite] (client) page reload src/main.jsx
+23:27:43 [vite] (client) page reload src/AudioLine.jsx
