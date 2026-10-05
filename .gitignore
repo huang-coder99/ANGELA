@@ -1,3 +1,32 @@
+# Dependencies and build output
 node_modules/
 dist/
+.vite/
+.video-work/
+coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and generated preview / audit output
+*.log
+preview-*.png
+performance-before.json
+performance-after.json
+test-results/
+playwright-report/
+
+# Duplicate checkout inside the project root
+/ANGELA/
+
+# Editor and operating system files
+.idea/
+.vscode/
 .DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp

@@ -11,17 +11,19 @@ export default function usePortfolioMotion(){
    const opening=document.querySelector('.opening');
    if(window.scrollY>80||location.hash){gsap.set(opening,{display:'none'})}
    else{
-    gsap.timeline({defaults:{ease:'power4.inOut'},onComplete:()=>gsap.set(opening,{display:'none'})})
+    const openingTimeline=gsap.timeline({defaults:{ease:'power4.inOut'},onComplete:()=>gsap.set(opening,{display:'none'})})
      .fromTo('.opening-letter',{yPercent:125,scaleX:.48,scaleY:1.4,rotation:5},{yPercent:0,scaleX:1,scaleY:1,rotation:0,duration:1.65,stagger:.09},.12)
      .fromTo('.opening-caption',{y:28,opacity:0},{y:0,opacity:1,duration:.8},.9)
      .to('.opening-letter',{yPercent:-125,duration:1.2,stagger:.045},2.4)
      .to('.opening',{clipPath:'inset(0 0 100% 0)',duration:1.7},2.6)
-     .fromTo('.hero-media',{scale:1.12},{scale:1,duration:2.3,ease:'power3.out'},2.6)
      .fromTo('.nav:not(.nav-floating) .brand,.nav:not(.nav-floating) .nav-links>a',{y:-34,opacity:0},{y:0,opacity:1,duration:1,stagger:.1,clearProps:'transform,opacity'},3)
      .fromTo('.hero-bottom',{y:45,opacity:0},{y:0,opacity:1,duration:1.2,clearProps:'transform,opacity'},3.3);
+    if(!window.matchMedia('(max-width: 700px) and (orientation: portrait)').matches){
+     openingTimeline.fromTo('.hero-media',{scale:1.12},{scale:1,duration:2.3,ease:'power3.out',clearProps:'transform'},2.6);
+    }
    }
    const reveal=(target,trigger,delay=0)=>gsap.fromTo(target,{y:95,scale:.96,clipPath:'inset(0 0 100% 0)'},{y:0,scale:1,clipPath:'inset(0 0 0% 0)',duration:1.55,delay,ease:'power4.out',clearProps:'transform,clipPath',scrollTrigger:{trigger,start:'top 88%',once:true}});
-   document.querySelectorAll('.post-hero section').forEach(section=>{
+   document.querySelectorAll('.post-hero > section').forEach(section=>{
     const title=section.querySelector('.motion-title');
     gsap.fromTo(title.querySelectorAll('span'),{yPercent:115,x:-60,scaleX:.65,rotation:3},{yPercent:0,x:0,scaleX:1,rotation:0,duration:1.65,stagger:.055,ease:'power4.out',scrollTrigger:{trigger:title,start:'top 88%',once:true}});
     const heading=section.querySelector('.section-heading')||section.querySelector('.about-copy h2');
